@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon-atoms.png" type="image/png">
+  <title>Steve Riju - Software Engineer Portfolio</title>
+  <meta name="description" content="Steve Riju - Software Engineer specializing in Java, Spring Boot, and full-stack development. View my projects and get in touch." />
+  <meta name="author" content="Steve Riju" />
+  <meta name="keywords" content="Steve Riju, Software Engineer, Java Developer, Spring Boot, Full Stack Developer, Backend Engineer" />
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="Steve Riju - Software Engineer Portfolio" />
+  <meta property="og:description" content="Building scalable backend systems with clean architecture and production-grade code" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://mgx-backend-cdn.metadl.com/generate/images/913273/2026-01-16/d3e4088b-2c9b-4abe-bd1d-5588e97d9b5a.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Steve Riju - Software Engineer Portfolio" />
+  <meta name="twitter:description" content="Building scalable backend systems with clean architecture and production-grade code" />
+  <meta name="twitter:image" content="https://mgx-backend-cdn.metadl.com/generate/images/913273/2026-01-16/d3e4088b-2c9b-4abe-bd1d-5588e97d9b5a.png" />
+
+  <script>
+  (function () {
+    const redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect && redirect !== location.href) {
+      history.replaceState(null, null, redirect.replace(location.origin, ""));
+    }
+  })();
+</script>
+
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
