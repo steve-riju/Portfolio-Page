@@ -44,10 +44,12 @@ export default function Projects() {
         'Student learning & course access',
       ],
       images: [
+        '/mbclanding.png',
         '/mbc-login.png',
         '/adminviewmbc.png',
         '/studentviewmbc.png',
         '/teacherviewmbc.png'
+        
       ],
       liveUrl: 'https://landing.campusmbc.org/',
       appUrl: 'https://campusmbc.org/',
