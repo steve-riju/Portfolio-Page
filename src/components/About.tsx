@@ -42,7 +42,8 @@ export default function About() {
           >
             <Card className="overflow-hidden border-2 border-primary/20">
               <img
-                src="https://mgx-backend-cdn.metadl.com/generate/images/913273/2026-01-16/d3e4088b-2c9b-4abe-bd1d-5588e97d9b5a.png"
+              src="/steve-image.png"
+
                 alt="Steve Riju - Software Engineer"
                 className="w-full h-auto object-cover"
               />

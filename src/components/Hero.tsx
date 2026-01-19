@@ -56,7 +56,7 @@ export default function Hero() {
               variant="outline"
               onClick={() => {
                 const link = document.createElement('a');
-                link.href = '/resume.pdf';
+                link.href = '/Steve-Resume-2026-Jan.pdf';
                 link.download = 'Steve_Riju_Resume.pdf';
                 link.click();
               }}

@@ -44,8 +44,10 @@ export default function Projects() {
         'Student learning & course access',
       ],
       images: [
-        'https://mgx-backend-cdn.metadl.com/generate/images/913273/2026-01-16/c9a876ec-7d55-490f-bf48-3ce7e034c9e9.png',
-        'https://mgx-backend-cdn.metadl.com/generate/images/913273/2026-01-16/883b4f08-2587-4bd1-b3fe-4ba403b08cf6.png',
+        '/mbc-login.png',
+        '/adminviewmbc.png',
+        '/studentviewmbc.png',
+        '/teacherviewmbc.png'
       ],
       liveUrl: 'https://landing.campusmbc.org/',
       appUrl: 'https://campusmbc.org/',
@@ -64,8 +66,7 @@ export default function Projects() {
         'Read mode for personal use',
       ],
       images: [
-        'https://mgx-backend-cdn.metadl.com/generate/images/913273/2026-01-16/38161c1d-eb50-4fd4-9de3-605d20d193f5.png',
-        'https://mgx-backend-cdn.metadl.com/generate/images/913273/2026-01-16/424b2b5e-490d-474b-8ba1-0c7ff552b691.png',
+        '/songportal.png'
       ],
       liveUrl: 'https://song-portal.onrender.com/index.html',
       githubUrl: 'https://github.com/steve-riju/Song-Portal',
@@ -78,12 +79,13 @@ export default function Projects() {
       techStack: ['Java', 'Spring Boot', 'HTML', 'CSS', 'JavaScript'],
       features: [
         'Patient admission management',
-        'Doctor–nurse–patient communication',
+        'Doctor-nurse-patient communication',
         'Doctor appointment booking system',
         'Medical records management',
       ],
       images: [
-        'https://mgx-backend-cdn.metadl.com/generate/images/913273/2026-01-16/8c3cad81-d78f-4fe6-8ffd-3f3cacd695aa.png',
+     '/healthlanding.png',
+     '/healthcollege.png',
       ],
       githubUrl: 'https://github.com/steve-riju/HealthLink-Alliance',
     },
